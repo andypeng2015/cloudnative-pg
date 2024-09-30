@@ -239,7 +239,7 @@ func RunController(
 		mgr,
 		discoveryClient,
 		pluginRepository,
-	).SetupWithManager(ctx, mgr, maxConcurrentReconciles); err != nil {
+	).SetupWithManager(ctx, mgr); err != nil {
 		setupLog.Error(err, "unable to create controller", "controller", "Backup")
 		return err
 	}
