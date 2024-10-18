@@ -1398,7 +1398,7 @@ will be detailed as follow:
 
 ### Role example
 
-If we want that a user has access to only get the logs of a cluster we can assign the following role:
+If we want a user can only have access to the cluster logs, we can assign the following role:
 
 ```yaml
 ---
