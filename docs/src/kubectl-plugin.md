@@ -1378,6 +1378,7 @@ will be detailed as follow:
 | Command        | Resources Permission                                                                                                          |
 |:---------------|:------------------------------------------------------------------------------------------------------------------------------|
 | backup         | clusters: get<br/>backups: create
+| certificate    | clusters: get<br/>secrets: get,create
 | destroy        | pods: get,delete<br/>jobs: list<br/>PVC:list,delete                                                                           |
 | fencing        | clusters: get,patch<br/>pods:get                                                                                              |
 | fio            | PVC: create<br/>configmaps: create<br/>deployment: create                                                                     |
